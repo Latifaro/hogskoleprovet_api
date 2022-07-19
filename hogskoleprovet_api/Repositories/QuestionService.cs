@@ -30,8 +30,8 @@ namespace hogskoleprovet_api.Repositories
         public async Task CreateAsync(Questions newQuestion) =>
             await _questionCollection.InsertOneAsync(newQuestion);
 
-        public async Task UpdateAsync(string id, Questions updatedBook) =>
-            await _questionCollection.ReplaceOneAsync(x => x.Id == id, updatedBook);
+        public async Task UpdateAsync(string id, Questions updateQuestion) =>
+            await _questionCollection.ReplaceOneAsync(x => x.Id == id, updateQuestion);
 
         public async Task RemoveAsync(string id) =>
             await _questionCollection.DeleteOneAsync(x => x.Id == id);

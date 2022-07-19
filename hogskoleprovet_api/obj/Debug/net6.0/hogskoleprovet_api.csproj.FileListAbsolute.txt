@@ -41,3 +41,4 @@ C:\BACKED\REPO\hogskoleprovet_api\hogskoleprovet_api\obj\Debug\net6.0\hogskolepr
 C:\BACKED\REPO\hogskoleprovet_api\hogskoleprovet_api\obj\Debug\net6.0\ref\hogskoleprovet_api.dll
 C:\BACKED\REPO\hogskoleprovet_api\hogskoleprovet_api\obj\Debug\net6.0\hogskoleprovet_api.pdb
 C:\BACKED\REPO\hogskoleprovet_api\hogskoleprovet_api\obj\Debug\net6.0\hogskoleprovet_api.genruntimeconfig.cache
+C:\BACKED\REPO\hogskoleprovet_api\hogskoleprovet_api\obj\Debug\net6.0\hogskoleprovet_api.csproj.AssemblyReference.cache

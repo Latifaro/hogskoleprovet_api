@@ -42,14 +42,34 @@ namespace hogskoleprovet_api.Controllers
 
         // PUT api/<QuestionsController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async Task<ActionResult<Questions>> Put(string id, Questions updateQuestion)
         {
+            var question = await _questionService.GetAsync(id);
+            if (question == null)
+            {
+
+                return NotFound();
+            }
+
+            updateQuestion.Id = question.Id;
+
+            await _questionService.UpdateAsync(id, updateQuestion);
+
+            return NoContent();
         }
 
         // DELETE api/<QuestionsController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<ActionResult<Questions>> Delete(string id)
         {
+            var question = await _questionService.GetAsync(id);
+            if (question == null)
+            {
+                return NotFound();
+            }
+            await _questionService.RemoveAsync(id);
+            return NoContent();
+
         }
     }
 }
