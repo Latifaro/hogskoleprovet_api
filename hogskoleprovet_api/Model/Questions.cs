@@ -9,10 +9,11 @@ namespace hogskoleprovet_api.Model
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string? Id { get; set; }
+        [BsonElement("name")]
         public string? Name { get; set; }
-        public string? Opta { get; set; }
-        public string? Optb { get; set; }
-        public string? Optc { get; set; }
-        public string? Optd { get; set; }
+        public string? opta { get; set; }
+        public string? optb { get; set; }
+        public string? optc { get; set; }
+        public string? optd { get; set; }
     }
 }

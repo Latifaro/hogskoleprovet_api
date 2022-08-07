@@ -1,12 +1,13 @@
 ﻿using hogskoleprovet_api.Model;
 using Microsoft.AspNetCore.Mvc;
 using hogskoleprovet_api.Repositories;
+using Microsoft.AspNetCore.Authorization;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace hogskoleprovet_api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]")] //https://localhost:7230/api
     [ApiController]
     public class QuestionsController : ControllerBase
     {
@@ -16,7 +17,9 @@ namespace hogskoleprovet_api.Controllers
         {
             _questionService = questionService;
         }
+        //https://localhost:7230/api/get/
         // GET: api/<QuestionsController>
+        [Authorize(AuthenticationSchemes = "Bearer")]
         [HttpGet]
         public async Task<List<Questions>> Get()
         {
@@ -31,7 +34,7 @@ namespace hogskoleprovet_api.Controllers
             if(question == null) { return NotFound(); }
             return Ok(question);
         }
-
+        //https://quiz.microappssolotion.com/api/post
         // POST api/<QuestionsController>
         [HttpPost]
         public async Task<IActionResult> Post(Questions newQuestion)

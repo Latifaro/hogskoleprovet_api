@@ -42,3 +42,11 @@ C:\BACKED\REPO\hogskoleprovet_api\hogskoleprovet_api\obj\Debug\net6.0\ref\hogsko
 C:\BACKED\REPO\hogskoleprovet_api\hogskoleprovet_api\obj\Debug\net6.0\hogskoleprovet_api.pdb
 C:\BACKED\REPO\hogskoleprovet_api\hogskoleprovet_api\obj\Debug\net6.0\hogskoleprovet_api.genruntimeconfig.cache
 C:\BACKED\REPO\hogskoleprovet_api\hogskoleprovet_api\obj\Debug\net6.0\hogskoleprovet_api.csproj.AssemblyReference.cache
+C:\BACKED\REPO\hogskoleprovet_api\hogskoleprovet_api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\BACKED\REPO\hogskoleprovet_api\hogskoleprovet_api\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\BACKED\REPO\hogskoleprovet_api\hogskoleprovet_api\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\BACKED\REPO\hogskoleprovet_api\hogskoleprovet_api\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\BACKED\REPO\hogskoleprovet_api\hogskoleprovet_api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\BACKED\REPO\hogskoleprovet_api\hogskoleprovet_api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\BACKED\REPO\hogskoleprovet_api\hogskoleprovet_api\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\BACKED\REPO\hogskoleprovet_api\hogskoleprovet_api\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
