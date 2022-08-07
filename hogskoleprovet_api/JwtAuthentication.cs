@@ -5,6 +5,7 @@ using System.Security.Claims;
 
 namespace hogskoleprovet_api
 {
+    //testing git
     public class JwtAuthentication
     {
         public string SecurityKey { get; set; }
